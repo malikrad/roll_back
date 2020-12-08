@@ -24,6 +24,7 @@ jobs:
       - destroy_environment
         when: on_fail
 
+
 workflows:
   my_workflow:
     jobs:
